@@ -30,7 +30,7 @@ Transform:
   m_Children:
   - {fileID: 6509864623544465656}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &7536050545138430969
 PrefabInstance:
@@ -45,24 +45,36 @@ PrefabInstance:
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3657698505945942785, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657698505945942785, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657698505945942785, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657698505945942785, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.04
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3657698505945942785, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.81
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3657698505945942785, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16.77
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3657698505945942785, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3657698505945942785, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3657698505945942785, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
       propertyPath: m_LocalRotation.y
@@ -74,7 +86,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3657698505945942785, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3657698505945942785, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -87,6 +99,38 @@ PrefabInstance:
     - target: {fileID: 3657698505945942812, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
       propertyPath: m_Name
       value: Bullet Effect
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657698505945942814, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657698505945942814, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
+      propertyPath: InitialModule.rotation3D
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657698505945942814, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657698505945942814, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657698505945942814, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657698505945942814, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
+      propertyPath: InitialModule.startSpeed.minScalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657698505945942814, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
+      propertyPath: CollisionModule.collidesWith.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657698505945942814, guid: 3bf13cb334965ce459b4fb4fb285f144, type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

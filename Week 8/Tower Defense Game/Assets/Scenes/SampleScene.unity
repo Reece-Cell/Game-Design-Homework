@@ -941,7 +941,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: $25
+  m_text: $50
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5871,7 +5871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1755292137125648070, guid: 7352bba5c38866e4ca152e53b2f5843a, type: 3}
   spawnPoint: {fileID: 403264892}
-  timeBetweenWaves: 20
+  timeBetweenWaves: 8
   waveCountdownText: {fileID: 273882637}
 --- !u!114 &658767879
 MonoBehaviour:
@@ -7252,7 +7252,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: $350
+  m_text: $25
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12990,7 +12990,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   standardTurret:
     prefab: {fileID: 3299473073407470258, guid: 3261ea8c4683d364497416c64db4803c, type: 3}
-    cost: 25
+    cost: 50
   missileLauncher:
     prefab: {fileID: 4587148090532825879, guid: 3653bc97916b2e043b99d80fd1d1ab0c, type: 3}
     cost: 50
@@ -14900,7 +14900,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: $25
+  m_text: $50
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
